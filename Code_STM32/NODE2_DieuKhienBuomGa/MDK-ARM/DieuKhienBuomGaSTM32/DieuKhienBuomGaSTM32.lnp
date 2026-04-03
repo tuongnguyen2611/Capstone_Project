@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"dieukhienbuomgastm32\startup_stm32f103xb.o"
+"dieukhienbuomgastm32\main.o"
+"dieukhienbuomgastm32\stm32f1xx_it.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_msp.o"
+"dieukhienbuomgastm32\canspi.o"
+"dieukhienbuomgastm32\mcp2515.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_gpio_ex.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_adc.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_adc_ex.o"
+"dieukhienbuomgastm32\stm32f1xx_hal.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_rcc.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_rcc_ex.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_gpio.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_dma.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_cortex.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_pwr.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_flash.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_flash_ex.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_exti.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_spi.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_tim.o"
+"dieukhienbuomgastm32\stm32f1xx_hal_tim_ex.o"
+"dieukhienbuomgastm32\system_stm32f1xx.o"
+--strict --scatter "DieuKhienBuomGaSTM32\DieuKhienBuomGaSTM32.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "DieuKhienBuomGaSTM32.map" -o DieuKhienBuomGaSTM32\DieuKhienBuomGaSTM32.axf

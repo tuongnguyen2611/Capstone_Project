@@ -1,0 +1,54 @@
+
+
+07-May-2025 20:54:30 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        Too many output arguments.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('ACCSimulationByUsingPID/Interpreted MATLAB Function','error')">ACCSimulationByUsingPID/Interpreted MATLAB Function</a>' while evaluating expression.
+
+07-May-2025 20:54:30 Error using simulink.Simulation/start
+Parameter 'Output dimensions' specified in '<a href="matlab:open_and_hilite_hyperlink ('ACCSimulationByUsingPID/Interpreted MATLAB Function','error')">ACCSimulationByUsingPID/Interpreted MATLAB Function</a>' is
+invalid. Output dimensions must be either -1 (dynamically sized), or a scalar greater than or equal to
+0, or a positive, non-zero vector of length 2
+Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+
+07-May-2025 20:55:09 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        Too many output arguments.
+        Error evaluating MATLAB function in '<a href="matlab:open_and_hilite_hyperlink ('ACCSimulationByUsingPID/Interpreted MATLAB Function','error')">ACCSimulationByUsingPID/Interpreted MATLAB Function</a>'
+
+07-May-2025 20:56:23 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        Too many output arguments.
+        Error evaluating MATLAB function in '<a href="matlab:open_and_hilite_hyperlink ('ACCSimulationByUsingPID/Interpreted MATLAB Function','error')">ACCSimulationByUsingPID/Interpreted MATLAB Function</a>'
+
+07-May-2025 22:20:19 Error using simulink.Simulation/start
+Error due to multiple causes.
+Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+Caused by:
+    Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+    Data type mismatch. '<a href="matlab:slprivate('open_and_hilite_port_hyperlink', 'hilite', ['ACCSimulationByUsingPID/Goto1'], 'Inport', 1);">Input Port 1</a>' of '<a href="matlab:open_and_hilite_hyperlink ('ACCSimulationByUsingPID/Goto1','error')">ACCSimulationByUsingPID/Goto1</a>' expects a signal of data type
+    'single'. However, it is driven by a signal of data type 'double'.
+    
+    Error in simulink.Simulation/initialize
+    
+    Error in simulink.Simulation/start
+    
+    Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+    
+    Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+    Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+    Data type mismatch. '<a href="matlab:slprivate('open_and_hilite_port_hyperlink', 'hilite', ['ACCSimulationByUsingPID/Lead vehicle'], 'Outport', 2);">Output Port 2</a>' of '<a href="matlab:open_and_hilite_hyperlink ('ACCSimulationByUsingPID/Lead vehicle','error')">ACCSimulationByUsingPID/Lead vehicle</a>' is a signal of data type
+    'double'. However, it is driving a signal of data type 'single'.
+    
+    Error in simulink.Simulation/initialize
+    
+    Error in simulink.Simulation/start
+    
+    Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+    
+    Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()

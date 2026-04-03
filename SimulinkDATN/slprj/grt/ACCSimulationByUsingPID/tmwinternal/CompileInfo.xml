@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2024b http://schema.mathworks.com/mf0/slexec_mm_sto/R2024a_202305081229 http://schema.mathworks.com/mf0/sltp_mm/R2024b_202402211119">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="cecefdb7-6766-4443-9a56-f34fca1b9f97">
+    <JITEngines>sFqjv58gZENWOJeZO0TvmUH</JITEngines>
+    <JITEngines>sSiZ7PnxILLBDxYDJklLXdH</JITEngines>
+    <JITEngines>sUXhYLsQKrIzSKVfrXRP2FB</JITEngines>
+    <JITEngines>seLR0h5wzp2ZfLaHxIA6C3C</JITEngines>
+    <calibrationData type="ModelRefInfoRepo.CalibrationData" uuid="7f42d585-71d4-4c8d-bf55-030286c27406">
+      <InternalData>[{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;ThrOut&quot;,&quot;Profile&quot;:&quot;&quot;}]</InternalData>
+      <ModelName>ACCSimulationByUsingPID</ModelName>
+    </calibrationData>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="1f3c4ee0-912b-44b6-8180-79ea83eaf7f2">
+      <modelName>ACCSimulationByUsingPID</modelName>
+      <modelPath>ACCSimulationByUsingPID</modelPath>
+    </childModelRefInfo>
+    <compDerivCacheNeedsReset>false</compDerivCacheNeedsReset>
+    <compZcCacheNeedsReset>true</compZcCacheNeedsReset>
+    <compiledTFinal>600.0</compiledTFinal>
+    <dataSourceInfo type="ModelRefInfoRepo.DataSourceInfo" uuid="54b90c51-89e9-435e-bc1a-5ddceeb3405c">
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="cdf33598-659f-4586-acf9-6b59990eb004">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>base workspace</sourceName>
+        <type>BaseWorkspace</type>
+      </dataSources>
+      <modelName>ACCSimulationByUsingPID</modelName>
+    </dataSourceInfo>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <defaultsCMapping>{&quot;Inports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Outports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ParameterArguments&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;LocalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InternalData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedLocalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Constants&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;DataTransfers&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ModelData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InitializeTerminate&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Execution&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedUtility&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;}</defaultsCMapping>
+    <fastestNoncontSigFeedingDerivPorts>.01</fastestNoncontSigFeedingDerivPorts>
+    <forceAutoToImplicitSolver>2</forceAutoToImplicitSolver>
+    <hasBlockWithPeriodicDiscreteSampleTime>true</hasBlockWithPeriodicDiscreteSampleTime>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasContinuousSampleTime>true</hasContinuousSampleTime>
+    <hasInlineVariantBlock>true</hasInlineVariantBlock>
+    <hasNonVirtualConstantTs>true</hasNonVirtualConstantTs>
+    <hasNoncontSigFeedingDerivPorts>true</hasNoncontSigFeedingDerivPorts>
+    <hasStatesModifiedInOutputUpdate>true</hasStatesModifiedInOutputUpdate>
+    <hasVariantModelOrSubsystem>true</hasVariantModelOrSubsystem>
+    <isBdInSimModeForSimCodegenVariants>false</isBdInSimModeForSimCodegenVariants>
+    <isInlineParamsOn>true</isInlineParamsOn>
+    <loggingSaveFormat>2</loggingSaveFormat>
+    <massMatrixIr>0</massMatrixIr>
+    <massMatrixIr>1</massMatrixIr>
+    <massMatrixIr>2</massMatrixIr>
+    <massMatrixIr>3</massMatrixIr>
+    <massMatrixIr>4</massMatrixIr>
+    <massMatrixIr>5</massMatrixIr>
+    <massMatrixIr>6</massMatrixIr>
+    <massMatrixIr>7</massMatrixIr>
+    <massMatrixIr>8</massMatrixIr>
+    <massMatrixIr>9</massMatrixIr>
+    <massMatrixIr>10</massMatrixIr>
+    <massMatrixIr>26</massMatrixIr>
+    <massMatrixIr>11</massMatrixIr>
+    <massMatrixIr>12</massMatrixIr>
+    <massMatrixIr>13</massMatrixIr>
+    <massMatrixIr>26</massMatrixIr>
+    <massMatrixIr>14</massMatrixIr>
+    <massMatrixIr>42</massMatrixIr>
+    <massMatrixIr>43</massMatrixIr>
+    <massMatrixIr>45</massMatrixIr>
+    <massMatrixIr>46</massMatrixIr>
+    <massMatrixIr>48</massMatrixIr>
+    <massMatrixIr>49</massMatrixIr>
+    <massMatrixIr>51</massMatrixIr>
+    <massMatrixIr>52</massMatrixIr>
+    <massMatrixIr>54</massMatrixIr>
+    <massMatrixIr>55</massMatrixIr>
+    <massMatrixIr>15</massMatrixIr>
+    <massMatrixIr>29</massMatrixIr>
+    <massMatrixIr>38</massMatrixIr>
+    <massMatrixIr>40</massMatrixIr>
+    <massMatrixIr>42</massMatrixIr>
+    <massMatrixIr>43</massMatrixIr>
+    <massMatrixIr>45</massMatrixIr>
+    <massMatrixIr>46</massMatrixIr>
+    <massMatrixIr>48</massMatrixIr>
+    <massMatrixIr>49</massMatrixIr>
+    <massMatrixIr>51</massMatrixIr>
+    <massMatrixIr>52</massMatrixIr>
+    <massMatrixIr>54</massMatrixIr>
+    <massMatrixIr>55</massMatrixIr>
+    <massMatrixIr>57</massMatrixIr>
+    <massMatrixIr>17</massMatrixIr>
+    <massMatrixIr>29</massMatrixIr>
+    <massMatrixIr>16</massMatrixIr>
+    <massMatrixIr>29</massMatrixIr>
+    <massMatrixIr>18</massMatrixIr>
+    <massMatrixIr>19</massMatrixIr>
+    <massMatrixIr>22</massMatrixIr>
+    <massMatrixIr>38</massMatrixIr>
+    <massMatrixIr>42</massMatrixIr>
+    <massMatrixIr>43</massMatrixIr>
+    <massMatrixIr>45</massMatrixIr>
+    <massMatrixIr>46</massMatrixIr>
+    <massMatrixIr>48</massMatrixIr>
+    <massMatrixIr>49</massMatrixIr>
+    <massMatrixIr>51</massMatrixIr>
+    <massMatrixIr>52</massMatrixIr>
+    <massMatrixIr>54</massMatrixIr>
+    <massMatrixIr>55</massMatrixIr>
+    <massMatrixIr>23</massMatrixIr>
+    <massMatrixIr>38</massMatrixIr>
+    <massMatrixIr>40</massMatrixIr>
+    <massMatrixIr>42</massMatrixIr>
+    <massMatrixIr>43</massMatrixIr>
+    <massMatrixIr>45</massMatrixIr>
+    <massMatrixIr>46</massMatrixIr>
+    <massMatrixIr>48</massMatrixIr>
+    <massMatrixIr>49</massMatrixIr>
+    <massMatrixIr>51</massMatrixIr>
+    <massMatrixIr>52</massMatrixIr>
+    <massMatrixIr>54</massMatrixIr>
+    <massMatrixIr>55</massMatrixIr>
+    <massMatrixIr>20</massMatrixIr>
+    <massMatrixIr>40</massMatrixIr>
+    <massMatrixIr>42</massMatrixIr>
+    <massMatrixIr>43</massMatrixIr>
+    <massMatrixIr>45</massMatrixIr>
+    <massMatrixIr>46</massMatrixIr>
+    <massMatrixIr>48</massMatrixIr>
+    <massMatrixIr>49</massMatrixIr>
+    <massMatrixIr>51</massMatrixIr>
+    <massMatrixIr>52</massMatrixIr>
+    <massMatrixIr>54</massMatrixIr>
+    <massMatrixIr>55</massMatrixIr>
+    <massMatrixIr>21</massMatrixIr>
+    <massMatrixIr>57</massMatrixIr>
+    <massMatrixIr>59</massMatrixIr>
+    <massMatrixJc>0</massMatrixJc>
+    <massMatrixJc>1</massMatrixJc>
+    <massMatrixJc>2</massMatrixJc>
+    <massMatrixJc>3</massMatrixJc>
+    <massMatrixJc>4</massMatrixJc>
+    <massMatrixJc>5</massMatrixJc>
+    <massMatrixJc>6</massMatrixJc>
+    <massMatrixJc>7</massMatrixJc>
+    <massMatrixJc>8</massMatrixJc>
+    <massMatrixJc>9</massMatrixJc>
+    <massMatrixJc>10</massMatrixJc>
+    <massMatrixJc>12</massMatrixJc>
+    <massMatrixJc>13</massMatrixJc>
+    <massMatrixJc>14</massMatrixJc>
+    <massMatrixJc>16</massMatrixJc>
+    <massMatrixJc>27</massMatrixJc>
+    <massMatrixJc>42</massMatrixJc>
+    <massMatrixJc>44</massMatrixJc>
+    <massMatrixJc>46</massMatrixJc>
+    <massMatrixJc>47</massMatrixJc>
+    <massMatrixJc>48</massMatrixJc>
+    <massMatrixJc>60</massMatrixJc>
+    <massMatrixJc>73</massMatrixJc>
+    <massMatrixJc>85</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>87</massMatrixJc>
+    <massMatrixJc>88</massMatrixJc>
+    <massMatrixNzMax>88</massMatrixNzMax>
+    <massMatrixType>3</massMatrixType>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <needAbsoluteTimeDisallowInitPort>true</needAbsoluteTimeDisallowInitPort>
+    <needsAbsoluteTime>true</needsAbsoluteTime>
+    <numCStateRecs>56</numCStateRecs>
+    <numContinuousStates>60</numContinuousStates>
+    <numDStateRecs>10</numDStateRecs>
+    <numDataInputPorts>0</numDataInputPorts>
+    <numLoggableCStateRecs>56</numLoggableCStateRecs>
+    <numLoggableDStateRecs>10</numLoggableDStateRecs>
+    <numLoggableJacobianDStates>162</numLoggableJacobianDStates>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <needAbsoluteTime>true</needAbsoluteTime>
+      <period>0.0</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>Cont</nonFcnCallPartitionName>
+      <period>.01</period>
+      <priority>40</priority>
+      <rateIdx>1</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D2</nonFcnCallPartitionName>
+      <period>.04</period>
+      <priority>41</priority>
+      <rateIdx>2</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <solverStatusFlags>323</solverStatusFlags>
+    <solverUpdateJacobianAtReset>true</solverUpdateJacobianAtReset>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2024a_202305081229&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;a5a36607-13c6-4cff-a720-7c5fac9c2426&quot;&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;identifier&gt;ACCSimulationByUsingPID&lt;/identifier&gt;
+    &lt;clockRegistry type=&quot;sto.ClockRegistry&quot; uuid=&quot;1100140e-51f2-466a-acd0-9c78beee0fe1&quot;&gt;
+      &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;cd78fb69-f3e1-4f15-9c08-b2e4263361f7&quot;&gt;
+        &lt;computedFundamentalDiscretePeriod&gt;.01&lt;/computedFundamentalDiscretePeriod&gt;
+        &lt;fastestDiscreteRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;79d68ac7-257a-48e7-84ed-b81d54808c26&quot;/&gt;
+        &lt;isDefaultTimer&gt;true&lt;/isDefaultTimer&gt;
+        &lt;resolution&gt;.01&lt;/resolution&gt;
+        &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+        &lt;identifier&gt;ACCSimulationByUsingPID::defaultTimer&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ContinuousRate&quot; uuid=&quot;ee567c6b-96f1-41c2-8c42-6d7944cfd520&quot;&gt;
+          &lt;annotation&gt;Cont&lt;/annotation&gt;
+          &lt;clockId&gt;ACCSimulationByUsingPID::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
+          &lt;description&gt;Continuous&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;ba5f2715-a4da-4737-8ee2-2cdb70f1d0ed&quot;/&gt;
+        &lt;/rates&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;79d68ac7-257a-48e7-84ed-b81d54808c26&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;ACCSimulationByUsingPID::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;rateIdx&gt;1&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;ee28e0ef-5bfc-4c28-9b19-6e4b499de075&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;a95dc0f1-336f-42f5-91a0-f7898f11dcd1&quot;&gt;
+          &lt;annotation&gt;D2&lt;/annotation&gt;
+          &lt;clockId&gt;ACCSimulationByUsingPID::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;1&lt;/colorIndex&gt;
+          &lt;description&gt;Discrete 2&lt;/description&gt;
+          &lt;rateIdx&gt;2&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task1&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;c2ed7071-46b3-4f41-9cdd-393231a142a5&quot;&gt;
+            &lt;period&gt;.04&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;baseRate type=&quot;sto.ContinuousRate&quot; uuid=&quot;10a83561-b4d8-4dbe-a3f6-193348bf010a&quot;&gt;
+          &lt;annotation&gt;Cont&lt;/annotation&gt;
+          &lt;clockId&gt;ACCSimulationByUsingPID::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
+          &lt;description&gt;Continuous&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;c823bb3f-b968-4859-920c-dc29ea73f55d&quot;/&gt;
+        &lt;/baseRate&gt;
+      &lt;/clocks&gt;
+      &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;6b090460-0f2b-4e22-b678-4470f7f0b8b5&quot;&gt;
+        &lt;eventType&gt;PARAMETER_CHANGE_EVENT&lt;/eventType&gt;
+        &lt;cNum&gt;1&lt;/cNum&gt;
+        &lt;clockType&gt;Event&lt;/clockType&gt;
+        &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;3db28f9c-132c-49ad-ad31-9ac4fb7378dc&quot;&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;36d6ee3e-730d-4dcf-8e4e-0747e3a3e5ee&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+      &lt;/clocks&gt;
+      &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+    &lt;/clockRegistry&gt;
+    &lt;taskRegistry type=&quot;sto.TaskRegistry&quot; uuid=&quot;884272fd-e291-40b9-9e96-52f1dce44fb0&quot;&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;6cf33315-39f0-4c1a-aef8-c26cc80b35d7&quot;&gt;
+        &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;b7672b23-1fe3-4e18-9ef7-1e9738b60640&quot;&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;2eeab347-6f66-44d0-892e-6f5c20b601eb&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;ParameterChangeEvent&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;ACCSimulationByUsingPID::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
+        &lt;priority&gt;-1&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;848fde34-b5a5-4d05-b781-f1177c21013c&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ContinuousRate&quot; uuid=&quot;6d28e093-8071-4902-8edd-a87d654615d8&quot;&gt;
+          &lt;annotation&gt;Cont&lt;/annotation&gt;
+          &lt;clockId&gt;ACCSimulationByUsingPID::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
+          &lt;description&gt;Continuous&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;702b2f00-04dd-4cdd-b38e-515933e10e8c&quot;/&gt;
+        &lt;/rates&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;f71abc77-913a-4cde-a743-27cf9a273d5a&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;ACCSimulationByUsingPID::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;rateIdx&gt;1&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;29ec1b68-f5c7-46c5-aeb9-379a57d8c14a&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;ACCSimulationByUsingPID::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;ACCSimulationByUsingPID::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task0&lt;/identifier&gt;
+        &lt;priority&gt;40&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;8028f54d-3d58-491c-80e9-3a796d7b6808&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;2&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;5c7a1f78-8495-4d68-80c9-db70b1d41361&quot;&gt;
+          &lt;annotation&gt;D2&lt;/annotation&gt;
+          &lt;clockId&gt;ACCSimulationByUsingPID::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;1&lt;/colorIndex&gt;
+          &lt;description&gt;Discrete 2&lt;/description&gt;
+          &lt;rateIdx&gt;2&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task1&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;047ebf24-ae6a-447d-bd0f-bdd61dd3e663&quot;&gt;
+            &lt;period&gt;.04&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;ACCSimulationByUsingPID::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;tNum&gt;1&lt;/tNum&gt;
+        &lt;timeKeeperClockId&gt;ACCSimulationByUsingPID::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task1&lt;/identifier&gt;
+        &lt;priority&gt;41&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;5f716675-fa91-4e42-8ede-8d9147e0d121&quot;&gt;
+        &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;bee5c440-f0ca-4d88-b165-974631d9da8d&quot;&gt;
+        &lt;clockIdentifier&gt;ACCSimulationByUsingPID::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;7f1da8f1-c830-45d2-884e-7cb5eaf93546&quot;&gt;
+          &lt;targetClockIdentifier&gt;ACCSimulationByUsingPID::defaultTimer&lt;/targetClockIdentifier&gt;
+          &lt;targetTaskIdentifier&gt;_task1&lt;/targetTaskIdentifier&gt;
+        &lt;/serializedConnectionProperties&gt;
+        &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;7fcc057a-37a6-4f26-8f78-0681004bbc0b&quot;&gt;
+        &lt;clockIdentifier&gt;ACCSimulationByUsingPID::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;e63c3f64-9e88-4a54-aee1-0b28afe5413c&quot;&gt;
+          &lt;targetClockIdentifier&gt;ACCSimulationByUsingPID::defaultTimer&lt;/targetClockIdentifier&gt;
+          &lt;targetTaskIdentifier&gt;_task0&lt;/targetTaskIdentifier&gt;
+        &lt;/serializedConnectionProperties&gt;
+        &lt;taskIdentifier&gt;_task1&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskPriorityDirection&gt;HighNumberLast&lt;/taskPriorityDirection&gt;
+      &lt;taskingMode&gt;ClassicMultiTasking&lt;/taskingMode&gt;
+    &lt;/taskRegistry&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="7be4d1f3-420f-457b-83dd-d65f3601cada">
+      <direction>63</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>SwitchCond</name>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="3a9d074f-0b50-4d86-9422-042d6ef37673">
+      <direction>63</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>SwitchCond</name>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="cf495c16-08bb-44a6-8be0-af99ab6c5ef2">
+      <direction>63</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>SwitchCond</name>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="c0f8bcc0-0ec1-4d13-a44c-c3f843973d36">
+      <direction>63</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>UprLim</name>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="549f3e1c-26cb-40be-b024-b59dcdf52f12">
+      <direction>63</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>LwrLim</name>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="4786f2c7-9b61-47ec-9e0f-db6189a89a82">
+      <direction>63</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>UprLim</name>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="453df06f-c083-4ea4-a3d9-3223c03fb183">
+      <direction>63</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>LwrLim</name>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="e2a4200a-46e3-4f36-a9ed-61d679333b63">
+      <direction>63</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>AbsZc</name>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="e5f9642d-eebc-4d30-bd1e-7dfac4094f04">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Subsystem.Engine.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="896f266a-1b53-49fa-b81f-7241c66c673d">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Subsystem.Engine.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="5faa13f8-7fda-40d0-8a7f-239c7b7a0c63">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Subsystem.Torque_Converter.converter.w_imp.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="5db3ac7f-2981-4ef6-b637-d83ce4710995">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Subsystem2.Double_Shoe_Brake1.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="55338a84-2e83-473b-8dab-28c18e938d82">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Subsystem2.Tire_Left.tire_road_interaction.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="ed3f2df6-cc6b-4c47-be0d-12ced9e975ac">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="480c3b00-2629-47fd-a441-1b419a892551">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="c5eb71a9-fc14-4de8-8d29-66faea3b331b">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="4a1b3f86-6d6a-41cb-a324-dcd9f8d75101">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="c009c2d1-b42f-4f37-a1f9-c513476c883e">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="fca3b00c-e228-4ffa-8278-1bc87f380ceb">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="2fe672ac-ba39-4949-99d3-b5ca10426511">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="f4fcb9af-df00-4103-8ba9-de3457c7cf75">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="de19c57e-517d-4fdd-8d26-fe79d2086348">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="2452f083-ad9d-4c14-b4cc-d29c6acb1025">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_6</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="db0ffd81-d0c1-4edb-8fcd-e93aadf99b02">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_7</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="a19ef6c5-0a2f-4c29-b027-c7dec7ed0931">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_8</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="d8b0505e-62c7-47a8-adf5-d52ee9981761">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_9</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="81734033-cfb5-46f9-8b89-ff8977b5b069">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_10</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="b2ba211a-4255-4504-908a-7b0b9913540e">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_11</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="ccb4458b-d089-4ab0-bc06-43e935842012">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_12</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="70990f3f-1fdd-4692-81e0-22bbe3efcdd4">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_13</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="989d0edd-549d-4149-9071-c0b92b22435f">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_14</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="5c1f1ec2-9f56-45d8-8c8c-3040d5a21604">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_15</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="1dd1783c-f803-46ea-bc63-17a5af905953">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_A.fundamental_clutch.clutch.zc_16</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="64208751-8bc6-4a2f-a48d-2a576923dfd1">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="580d88cf-de55-44ea-b9f5-7158bbe06d6f">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="0d8a0e8c-3daf-41dd-8787-80352b394ee1">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="e6ebcbea-d725-465e-9f7e-424f9c72ab83">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="b91fcbd7-1fe6-439b-adee-d5a15413268d">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_6</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="f32cb6e4-55a8-4a5b-b22a-c9ec33ef713b">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_7</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="913b2650-ff11-4743-a4c6-86bccf4e42f7">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_8</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="9e009964-fb0d-4207-8598-7c24a16a2bba">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_9</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="ccafa19e-fb89-4e1e-b87c-dd5475565bb9">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_10</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="d5512bd6-5290-44e3-8600-65b914d223ae">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_11</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="67556fa2-507e-4bbe-8d49-81a55ab63881">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_12</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="f45f76b1-283b-4cd5-91dd-ada75d211cd0">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_13</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="7aaaa749-925c-4683-8322-8c587bf96db9">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_14</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="4c708de3-0aca-4d25-bd10-d6de84710c82">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_15</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="6c2ca5c5-9345-4800-8f64-04d9e7166649">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_B.fundamental_clutch.clutch.zc_16</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="c64b319e-7b6f-4751-925e-e8f2aaaf50ac">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="2a4841b7-a66c-422e-87fd-e7fefc0bd045">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="226f3edd-6ddf-41c8-9c48-961185a42c63">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="92d923f5-1578-4c87-947f-73076a96c755">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="fd8c4125-e1e9-46e1-804b-c159aceba8cf">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_6</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="4b88a298-bd39-4795-bbd6-ae13b1495cd4">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_7</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="a0f09e7f-a66c-4829-984c-18dafc2c3abd">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_8</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="54ffea7a-f9e6-40a1-8b90-8b6ab7346014">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_9</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="6fdb5cfc-fbb9-463e-9f73-5a30fc990a5b">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_10</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="59d4e75f-e6bc-4ec7-ae9a-142071e113fe">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_11</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="839c6fa3-c948-4f31-bdaa-f23d85281a71">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_12</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="a53a6736-54a1-455c-acc5-9f2f3d717b88">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_13</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="2ff591c5-e543-4fba-bd90-7fd044778034">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_14</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="f490f1a2-7c3f-4436-abf4-781666a031b0">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_15</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="562210c8-e896-4126-8629-cb77ec0d6b5c">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_C.fundamental_clutch.clutch.zc_16</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="28686704-1db0-423d-aebb-a7c7444a7a0b">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="e8cbe71a-6ffc-4f66-bd45-8ce719d26665">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="2a9c0622-5dcf-4d5b-8836-94f902942ca9">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="79acaed1-bf8c-49dc-8439-4391cb251270">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="91bef28e-554b-44ba-bb0f-1bc8d768c1d7">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_6</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="96807f52-e1dc-49cb-9595-c9925ff74d17">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_7</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="c2e01084-d6b9-4709-9660-d05c371f8c09">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_8</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="e08b4a15-20ab-4bd2-bd6b-a4ec147853b2">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_9</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="bf0e2fc9-2ade-4ff6-87e3-caddc768d94f">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_10</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="b025a044-c168-4d4b-93f2-d199c3b04ff0">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_11</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="13994d88-2361-45b2-ada6-aa525e2ce174">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_12</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="c7cba9d4-f829-4749-b334-b6716253fe6d">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_13</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="40331e18-ce8d-4008-ab12-8595c1aa6190">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_14</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="319dc0c3-e387-469a-9d85-5a6b06e42dd3">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_15</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="9d2ec8e9-6c82-48c2-86cf-34092bde8fea">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_D.fundamental_clutch.clutch.zc_16</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="9a48c8da-67bb-4134-bdc6-2979d832e0b0">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="88aa91a0-ca24-435c-aa7c-1e833e964cb4">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="010c063f-6ecd-4727-a94b-d0cd0720b0c3">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="0a80cdb2-b862-4b84-9f86-67d6d3935531">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="13cd7e83-7af2-49e7-afb4-7140aea33587">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_6</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="2a217ca6-ef84-4fce-94a2-26854a33c6ce">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_7</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="df55c61c-de23-4ba0-8553-5ff0298d4eb2">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_8</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="8ccbfbb1-c843-44eb-abaf-60ec50a845ef">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_9</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="98aa34d9-2a7a-46ba-82c8-b3069da00d4b">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_10</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="7cfefd7e-8b04-4031-8f07-8a9d7c387620">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_11</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="44b36777-f91d-422b-a11e-2bc1d9161a99">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_12</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="56c82416-dc12-4b90-88c5-aba96c5db75e">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_13</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="f13689f7-df62-4dd4-8e61-fb17fa546315">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_14</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="318df6c8-8ae1-4259-b16c-18071aad403c">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_15</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="406fc759-761a-4988-821c-a70b9b8a17e6">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>ACC_Vehicle.Transmission.Ly_hp_R.fundamental_clutch.clutch.zc_16</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="26c5b39c-49aa-4ee1-9b6e-29eadec8f7f0">
+      <direction>63</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>SwitchCond</name>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="ec511f75-71cc-4806-8661-286236978d3d">
+      <direction>63</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>SwitchCond</name>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="53f273b1-b116-4664-9387-9da341d0693b"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="8b66979e-2035-4413-a45a-cf85cd748eec"/>
+    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="238cacf6-4aca-4313-89f0-861e9b52de5b"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="891cf5b5-5e1e-43f3-9205-e58c1a268e22">
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <fixedStepSize>.01</fixedStepSize>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <isRateGrouped>true</isRateGrouped>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverMode>SOLVER_MODE_MULTITASKING</solverMode>
+      <solverName>ode1be</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="bb745af0-dae8-440a-bee8-c1af5c86aebb">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>32</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>64</prodBitPerPointer>
+        <prodBitPerPtrDiffT>64</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>64</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>64</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="9c145193-64f8-4e16-9aae-c3480315bec5"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="035ebe92-4f46-4ef2-9619-4a4d3198e80d"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="1e4454e8-d278-488d-ab01-13074035be38"/>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="71308f18-5dfc-41fb-a480-d111cd63adf9"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="17e4e10e-1037-4ad9-8644-ab6c30fadec1"/>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="8b274075-2c68-40a1-a72a-caeda87fe3e6"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="73ab1a13-6e76-496a-8b9e-b26224bc0f66"/>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="949cf54c-fc89-4969-b6be-909ecb870783">
+      <hasHiddenDeterministicRTB>true</hasHiddenDeterministicRTB>
+    </periodicEventPortUnsupportedBlockInfo>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="33e192f2-502b-4726-af1a-e67a0b713fd5">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="4d655baf-3e56-4365-9098-1bf6517c1840"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="42e585ff-9250-45be-b237-4ce29d90f347"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="52ea582d-5788-401d-9cf0-d29f70b42d3e"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="2f099f52-7ef4-455c-a610-733383ac71f7"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="7a15c713-fe37-445f-b467-d38326fcaff5"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="f6a5cc47-02a9-4a80-af71-318d0e483980">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="b20571e0-633b-4061-8dec-ba21d240c894">
+        <p_Name>ACCSimulationByUsingPID</p_Name>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="a4aca481-a157-4929-bd49-75ccd5d84fbd">
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <sltpContext type="sltp.mm.core.Context" uuid="3092222e-b289-486e-9d93-dc273f197eb9">
+      <globalData type="sltp.mm.core.GlobalData" uuid="5ed36fe8-cadc-4d0a-80c2-66789bc0ea08">
+        <dataName>portOutport</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <priorityDirection>HighNumberLast</priorityDirection>
+      <defaultEventBehavior type="sltp.mm.core.EventBehavior" uuid="0bec9812-67bf-4578-bf80-2f64f98fa2b4"/>
+      <editorState type="sltp.mm.core.EditorState" uuid="7e87067f-a85a-4bda-885b-bdbb55972680">
+        <isSynchronized>true</isSynchronized>
+        <panelState type="sltp.mm.core.EditorPanelState" uuid="777a71f1-f625-4efa-91b8-2b731b23b601"/>
+      </editorState>
+      <rootTask type="sltp.mm.core.Task" uuid="b3c385e5-a846-4445-bee2-f427a1bd8a0f">
+        <context type="sltp.mm.core.Context" uuid="3092222e-b289-486e-9d93-dc273f197eb9"/>
+        <explicit>false</explicit>
+        <name>Default</name>
+        <priority>-2147483648</priority>
+        <subgraph type="sltp.mm.core.Graph" uuid="4c11d2c9-f303-4f70-be1b-4504141ff6c4">
+          <connections type="sltp.mm.core.Connection" uuid="7101dfad-1aca-482e-9050-c67e8db91a56">
+            <dst type="sltp.mm.core.Task" uuid="6fce7606-e3cc-4f57-80ef-fa6953aa2988"/>
+            <src type="sltp.mm.core.Task" uuid="a1451306-b478-464e-b9ea-43c385d13926"/>
+          </connections>
+          <connections type="sltp.mm.core.Connection" uuid="9a31aa38-ed7d-4db1-92d1-5b3a6b90c003">
+            <dst type="sltp.mm.core.Task" uuid="a1451306-b478-464e-b9ea-43c385d13926"/>
+            <src type="sltp.mm.core.Task" uuid="6fce7606-e3cc-4f57-80ef-fa6953aa2988"/>
+          </connections>
+          <tasks type="sltp.mm.core.Task" uuid="a1451306-b478-464e-b9ea-43c385d13926">
+            <baseTask>true</baseTask>
+            <context type="sltp.mm.core.Context" uuid="3092222e-b289-486e-9d93-dc273f197eb9"/>
+            <explicit>false</explicit>
+            <id>1</id>
+            <inConnections type="sltp.mm.core.Connection" uuid="9a31aa38-ed7d-4db1-92d1-5b3a6b90c003"/>
+            <isTimed>true</isTimed>
+            <name>Cont</name>
+            <outConnections type="sltp.mm.core.Connection" uuid="7101dfad-1aca-482e-9050-c67e8db91a56"/>
+            <priority>40</priority>
+            <rates type="sltp.mm.core.Rate" uuid="0b9611db-258d-4a53-852a-51930395cc00">
+              <annotation>Cont</annotation>
+              <color>255</color>
+              <hasBlocks>true</hasBlocks>
+              <identifier>Continuous00</identifier>
+              <rateIndex>0</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>0.0</period>
+              </rateSpec>
+              <sti>0</sti>
+            </rates>
+            <rates type="sltp.mm.core.Rate" uuid="ae8a7f10-d966-40d5-9c5f-699675dc01af">
+              <annotation>D1</annotation>
+              <color>-12240129</color>
+              <hasBlocks>true</hasBlocks>
+              <rateIndex>1</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.01</period>
+              </rateSpec>
+              <sti>1</sti>
+            </rates>
+          </tasks>
+          <tasks type="sltp.mm.core.Task" uuid="6fce7606-e3cc-4f57-80ef-fa6953aa2988">
+            <context type="sltp.mm.core.Context" uuid="3092222e-b289-486e-9d93-dc273f197eb9"/>
+            <explicit>false</explicit>
+            <id>2</id>
+            <inConnections type="sltp.mm.core.Connection" uuid="7101dfad-1aca-482e-9050-c67e8db91a56"/>
+            <isTimed>true</isTimed>
+            <name>D2</name>
+            <outConnections type="sltp.mm.core.Connection" uuid="9a31aa38-ed7d-4db1-92d1-5b3a6b90c003"/>
+            <priority>41</priority>
+            <rates type="sltp.mm.core.Rate" uuid="9b0a62ce-439e-4bb7-aa0d-156629e210cb">
+              <annotation>D2</annotation>
+              <color>986198527</color>
+              <hasBlocks>true</hasBlocks>
+              <identifier>ClassicPeriodicDiscrete0.040</identifier>
+              <rateIndex>2</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.04</period>
+              </rateSpec>
+              <sti>2</sti>
+            </rates>
+          </tasks>
+        </subgraph>
+      </rootTask>
+    </sltpContext>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="3e12ea8c-b2fb-4499-94fa-2798963b2d33"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="598eef34-4488-4b75-b28a-bfa4eb534705">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="b337cdd5-a860-40f6-ae02-353e1bea28ff">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="947371ef-f6fa-4210-88a5-4174d53a9977">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="01ef3ee7-8595-41f7-9515-0f13931ff508">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="af2e42fd-5b8c-473c-951e-f416aadc1fdf"/>
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="80f00821-7d9c-41f0-be40-7ee814e11143"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="af2e42fd-5b8c-473c-951e-f416aadc1fdf">
+          <dataName>Cont</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="01ef3ee7-8595-41f7-9515-0f13931ff508"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>ACCSimulationByUsingPID::defaultTimer</clockId>
+            <id>_task0</id>
+          </id>
+        </tSet>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="80f00821-7d9c-41f0-be40-7ee814e11143">
+          <dataName>D2</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="01ef3ee7-8595-41f7-9515-0f13931ff508"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>ACCSimulationByUsingPID::defaultTimer</clockId>
+            <id>_task1</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="f0eedb57-3082-4909-94e2-d33f1940023e"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>

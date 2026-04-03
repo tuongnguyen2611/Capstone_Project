@@ -1,0 +1,67 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   7 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_c2_ACCSimulationByUsingPID"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_gear_state"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "gear_state"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_gear_state"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "gear_state"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_selection_state"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "selection_state"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_selection_state"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "selection_state"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

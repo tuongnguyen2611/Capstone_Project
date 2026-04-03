@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"node3_doctps\startup_stm32f103xb.o"
+"node3_doctps\mcp2515.o"
+"node3_doctps\canspi.o"
+"node3_doctps\main.o"
+"node3_doctps\stm32f1xx_it.o"
+"node3_doctps\stm32f1xx_hal_msp.o"
+"node3_doctps\stm32f1xx_hal_gpio_ex.o"
+"node3_doctps\stm32f1xx_hal_adc.o"
+"node3_doctps\stm32f1xx_hal_adc_ex.o"
+"node3_doctps\stm32f1xx_hal.o"
+"node3_doctps\stm32f1xx_hal_rcc.o"
+"node3_doctps\stm32f1xx_hal_rcc_ex.o"
+"node3_doctps\stm32f1xx_hal_gpio.o"
+"node3_doctps\stm32f1xx_hal_dma.o"
+"node3_doctps\stm32f1xx_hal_cortex.o"
+"node3_doctps\stm32f1xx_hal_pwr.o"
+"node3_doctps\stm32f1xx_hal_flash.o"
+"node3_doctps\stm32f1xx_hal_flash_ex.o"
+"node3_doctps\stm32f1xx_hal_exti.o"
+"node3_doctps\stm32f1xx_hal_spi.o"
+"node3_doctps\stm32f1xx_hal_tim.o"
+"node3_doctps\stm32f1xx_hal_tim_ex.o"
+"node3_doctps\system_stm32f1xx.o"
+--strict --scatter "Node3_DocTPS\Node3_DocTPS.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Node3_DocTPS.map" -o Node3_DocTPS\Node3_DocTPS.axf
